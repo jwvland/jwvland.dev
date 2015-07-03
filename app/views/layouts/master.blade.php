@@ -36,55 +36,58 @@
 
 
  <!--ROOFERS-->
-<section class="roofers-bg"> 
+<section class="roofers-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                 <a name="about"></a><h1>About Us</h1>
                 <hr class="center">
                 <p class="jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInDown">
-                Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est<br>. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. 
-
+                Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est<br>. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien.
                 </p>
             </div>
         </div>
-        
-        <div class="row">
 
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInUp">
-            <img src="images/professional.png" alt="">
-            <p>Expert and Professional</p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeInUp">
-            <img src="images/satisfaction.png" alt="">
-            <p>Satisfaction Guarantee</p>
-            </div>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInUp">
-            <img src="images/inspiration.png" alt="">
-            <p>Free Estimates</p>
-            </div>
-        </div>
-        
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInUp">
+              <img src="images/professional.png" alt="">
+              <p>Expert and Professional</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeInUp">
+              <img src="images/satisfaction.png" alt="">
+              <p>Satisfaction Guarantee</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInUp">
+              <img src="images/inspiration.png" alt="">
+              <p>Free Estimates</p>
+              </div>
+          </div>
         </div>
     </div>
 </section>
-
 
  <!-- FEATURED WORK -->
 <section class="feature">
 
 <div class="container">
     <div class="row">
+        <br>
+        <br>
+        <br>
         <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-        	<h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown"><a name="featured">
-            </a>Our Featured Work</h1>
-            <hr class="center">          
-        </div>       
+
+
+          <h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown">
+            Our Featured Work</h1>
+
+            <hr class="center">
+        </div>     
+
     </div>
     
     <div class="row">
@@ -152,39 +155,59 @@
 </div>
 </section>
 
-<!-- news-letter -->
-  <section class="news-letter module parallax parallax-1">
+<section class="contact-wrap">
     <div class="container">
-      <div class="row text-center jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeInDown">
-        <h1>Get our Daily News and Offers</h1>
-        <p>Nunc lorem mi, pulvinar quis Class aptent taciti molestie tincidunt</p>
-      </div>
-      <div class="row news-letter-form jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeInDown">
-        <div class="col-sm-9 col-sm-offset-0 col-lg-7 col-lg-offset-2 col-xs-12 col-xs-offset-0 wow fadeInUp" data-wow-duration="2s">
-          <form class="form-inline col-xs-12">
-            <div class="form-group">
-            
-            <div class="col-xs-11 form-input">
-              <label class="sr-only" for="userEmail">Email Address</label>
-              <input type="email" class="form-control" id="userEmail" placeholder="Email Adrress" required>
-            </div>  
-            <div class="col-xs-1 form-input">
-              <button type="submit" class="btn btn-default submit-button">
-                Join us Now!
-              </button>
-            </div>  
-              
+        <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <br>
+            <div class="contact">
+            <h1 class="jw-animate-gen noOpacity" data-gen="fadeInDown" data-gen-offset="90%">
+            Contact Us</h1>
+            <p class="jw-animate-gen noOpacity" data-gen="fadeInDown" data-gen-offset="85%">
+            Lorem ipsum dolor sit amet, mea cu omnium urbanitas, labitur volumus id eum. Ius ignota offendit similique et, sea dolorum vituperata ullamcorper volumus id eum. Ius ignota offendit similique et, sea dolorum vituperata ullamcorper.</p>
             </div>
-          </form>
         </div>
-      </div>
-    </div>
-    
-  </section>
-
-<!-- news-letter -->
+        </div> <!--ROW-->
+        <div class="row">
+        
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="contact jw-animate-gen noOpacity" data-gen="fadeInLeft" data-gen-offset="80%">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-1">
+                  <i class="fa fa-home"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-11 nospace">
+                5512 Lorem Ipsum Vestibulum Molesqu, Dolor Sit Amet, 
+                Egestas 666 69 
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-1">
+                <i class="fa fa-envelope"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-11 nospace">
+                <a href="mailto:contact@yourdomain.com">
+                 contact@yourdomain.com</a>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-1">
+                <i class="fa fa-phone"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-11 nospace">
+                 +1 800 450 6935 <br>
+                 +1 800 450 6940 
+                </div>
+            </div>
+            </div>
+        </div>
+      </div> <!--ROW-->
+    </div> <!--CONTAINER-->
+</section>
 
 @include('partials.footer')
+
 
 
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
