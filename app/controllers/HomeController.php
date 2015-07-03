@@ -23,4 +23,9 @@ class HomeController extends BaseController {
 	}
 
 
+		public function showWorkDetail()
+	{
+		return View::make('workDetail');
+	}
+
 }

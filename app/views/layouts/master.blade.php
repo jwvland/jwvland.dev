@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Roofers Quote Open</title>
+<title>@yield('title')</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/slider-pro.min.css">
@@ -32,8 +32,8 @@
 </div>
 @include('partials.navbar')
 
-
-
+@yield('home')
+@yield('detail')
 
  <!--ROOFERS-->
 <section class="roofers-bg">
@@ -203,6 +203,7 @@
       </div> <!--ROW-->
     </div> <!--CONTAINER-->
 </section>
+
 
 @include('partials.footer')
 

@@ -5,13 +5,13 @@
             <div class="col-md-6 col-sm-6 col-xs-6">
             <div class="row">
             
-            <div class="col-md-3 col-sm-3 col-xs-12 info">
+            <div class="col-md-4 col-sm-3 col-xs-12 info">
                <h4> <span class="address">English<br>
                 <i class="fa fa-phone"></i><a href="tel:1-210-998-9499">
                  210 998 9499</a>  
                 </span></h4>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-12 info">
+            <div class="col-md-4 col-sm-3 col-xs-12 info">
                <h4><span class="address">Spanish<br>
                 <i class="fa fa-phone"></i><a href="tel:1-210-313-0016">
                  210 313 0016</a> 
