@@ -1,4 +1,6 @@
 @extends('layouts.master')
+@section('title')Landscaping
+@stop
 @section('detail')
 
 <body>
