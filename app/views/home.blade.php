@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('home')Home
+@section('title')Home
 @stop
 
 
