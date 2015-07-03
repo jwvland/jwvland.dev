@@ -81,12 +81,10 @@
         <br>
         <div class="col-md-12 col-sm-12 col-xs-12 text-center">
 
-
-          <h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown">
-            Our Featured Work</h1>
-
-            <hr class="center">
-        </div>     
+        	<h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown"><a name="featured">
+            </a>Our Featured Work</h1>
+            <hr class="center">          
+        </div>       
 
     </div>
     
