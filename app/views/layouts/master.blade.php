@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                <h1>About Us</h1>
+                <h1><a name="about">About Us</a></h1>
                 <hr class="center">
                 <p class="jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInDown">
                 Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est<br>. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. 
@@ -84,8 +84,13 @@
         <br>
         <br>
         <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+<<<<<<< HEAD
           <h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown">
             Our Featured Work</h1>
+=======
+        	<h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown"><a name="featured">
+            Our Featured Work</a></h1>
+>>>>>>> 2c37aaeaacc0a478c90901be9fa03b8f5af3dc12
             <hr class="center">          
         </div>       
     </div>
@@ -207,6 +212,7 @@
 </section>
 
 
+<<<<<<< HEAD
 <footer id="footer">
     <div class="container">
         <div class="row">
@@ -352,6 +358,9 @@
         </div>        
     </div>
 </footer>
+=======
+@include('partials.footer')
+>>>>>>> 2c37aaeaacc0a478c90901be9fa03b8f5af3dc12
 
 
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
