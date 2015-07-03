@@ -11,6 +11,9 @@
 |
 */
 
+
 Route::get('/', 'HomeController@showHome');
 
 Route::get('workDetail', 'HomeController@showWorkDetail');
+
+
