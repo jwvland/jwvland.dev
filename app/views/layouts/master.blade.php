@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                <h1><a name="about">About Us</a></h1>
+                <a name="about"></a><h1>About Us</h1>
                 <hr class="center">
                 <p class="jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInDown">
                 Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est<br>. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. 
@@ -82,7 +82,7 @@
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12 text-center">
         	<h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown"><a name="featured">
-            Our Featured Work</a></h1>
+            </a>Our Featured Work</h1>
             <hr class="center">          
         </div>       
     </div>
