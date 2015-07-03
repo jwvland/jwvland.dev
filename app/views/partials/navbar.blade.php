@@ -38,7 +38,7 @@
     	<div class="row">
         	<div class="col-md-3 col-sm-3 col-xs-4 logo">
             <div class="logo">
-            	<a href="index.html">
+            	<a href="{{{action('HomeController@showHome')}}}">
                 <img src="images/logo.png" alt="logo" class="img-responsive"></a>
             </div>
             </div>
