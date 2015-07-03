@@ -15,6 +15,9 @@ class HomeController extends BaseController {
 	|
 	*/
 
-		Route::get('/', 'HomeController@showHome');
+		public function showHome()
+	{
+		return View::make('home');
+	}
 
 }
