@@ -1,5 +1,6 @@
+
 <header>
-    <div class="container margin-right:0">
+    <div class="container">
       <div class="row text-center top-info">
             <div class="col-md-6 col-sm-6 col-xs-6">
             <div class="row">
@@ -54,37 +55,14 @@
                 </div>
                 <div class="collapse navbar-collapse nav-collapse">
                 	<ul class="nav navbar-nav navbar-left">
-                        <li class="active"><a href="index.html"> Home </a></li>
-                        <li><a href="about.html"> About </a></li>
-                        <li class="dropdown">
-                          <a href="services.html" class="dropdown-toggle" data-toggle="dropdown">
-                          Roofing Services <b class="caret"></b></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="services.html">Roofing Services </a></li>
-                            <li><a href="services-detail.html">Services Details</a></li>
-                          </ul>
+                        <li class="active"><a href="{{{action('HomeController@showHome')}}}"> Home </a></li>
+                        <li><a href="#about"> About </a></li>
+                        <li>
+                          <a href="#featured">
+                          Our Work</a>
                         </li>
-                        
-                        <li class="dropdown">
-                          <a href="our-work.html" class="dropdown-toggle" data-toggle="dropdown">
-                          Our Work <b class="caret"></b></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="our-work.html">Our Work </a></li>
-                            <li><a href="work-detail.html">Work Details</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="locations.html"> Locations </a></li>
-                        <li><a href="news.html"> News </a></li>
-                        <li><a href="contact.html"> Contact Us </a></li>
-                        
-                    </ul>
-                    <div class="search-container hidden-sm hidden-xs">
-                   	 <form class="searchbox navbar-form ">
-                    <input type="text" class="searchbox-input search" placeholder="search here" name="search" required>
-                    <button type="submit" class="searchbox-submit searchbox-icon" value=""><i class="fa fa-search"></i>
-                    </button>
-                    </form>
-                    </div>
+                        <li><a href="#contact"> Contact Us </a></li>
+                  </ul>
                </div>
            </nav>
            </div>
