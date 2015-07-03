@@ -12,9 +12,3 @@
 */
 
         Route::get('/', 'HomeController@showHome');
-      public function showHome()
-   {
-      return View::make('home');
-  }
-
- }

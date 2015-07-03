@@ -36,21 +36,19 @@
 
 
  <!--ROOFERS-->
-<section class="roofers-bg"> 
+<section class="roofers-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                 <h1><a name="about">About Us</a></h1>
                 <hr class="center">
                 <p class="jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInDown">
-                Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est<br>. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. 
-
+                Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est<br>. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien.
                 </p>
             </div>
         </div>
-        
-        <div class="row">
 
+        <div class="row">
           <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInUp">
               <img src="images/professional.png" alt="">
@@ -69,11 +67,9 @@
               <p>Free Estimates</p>
               </div>
           </div>
-        
         </div>
     </div>
 </section>
-
 
  <!-- FEATURED WORK -->
 <section class="feature">
@@ -84,15 +80,12 @@
         <br>
         <br>
         <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-<<<<<<< HEAD
+
           <h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown">
             Our Featured Work</h1>
-=======
-        	<h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown"><a name="featured">
-            Our Featured Work</a></h1>
->>>>>>> 2c37aaeaacc0a478c90901be9fa03b8f5af3dc12
-            <hr class="center">          
-        </div>       
+
+            <hr class="center">
+        </div>
     </div>
     
     <div class="row">
@@ -211,156 +204,8 @@
     </div> <!--CONTAINER-->
 </section>
 
-
-<<<<<<< HEAD
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="footer-detail jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeInUp">
-                 <h3>Latest Posts</h3>
-                 <hr class="center">
-                 <div class="row">
-                     <div class="col-md-3 col-sm-4 col-xs-3">
-                     <img src="images/latest-post.png" alt="our posts" class="img-responsive"> 
-                     </div>
-                            
-                    <div class="col-md-9 col-sm-8 col-xs-9 nospace">
-                    <a href="news.html">Sed ut perspiciatis unde omnisiste natus error</a>
-                    </div>
-                </div>
-                  <div class="row">
-                     <div class="col-md-3 col-sm-4 col-xs-3">
-                     <img src="images/latest-post2.png" alt="our posts" class="img-responsive"> 
-                     </div>
-                            
-                    <div class="col-md-9 col-sm-8 col-xs-9 nospace">
-                    <a href="news.html">ut perspiciatis unde omnis iste natus error</a>
-                    </div>
-                </div>
-                  <div class="row">
-                     <div class="col-md-3 col-sm-4 col-xs-3">
-                     <img src="images/latest-post3.png" alt="our posts" class="img-responsive"> 
-                     </div>
-                            
-                    <div class="col-md-9 col-sm-8 col-xs-9 nospace">
-                    <a href="news.html">Sed ut perspiciatis unde omnis iste natus error</a>
-                    </div>
-                </div>                
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-detail jw-animate-gen noOpacity" data-gen-offset="90%" data-gen="fadeInUp">
-              <h3>Our Services</h3>
-              <hr class="center">
-              <ul class="inline">
-                <li>
-                  <a href="services-detail.html">
-                    <i class="fa fa-angle-double-right"></i> 
-                      Residential Roofing
-                  </a>
-                </li>
-                <li>
-                  <a href="services-detail.html">
-                    <i class="fa fa-angle-double-right"></i> 
-                      Commercial Roofing
-                  </a>
-                </li>
-                <li>
-                  <a href="services-detail.html">
-                    <i class="fa fa-angle-double-right"></i> 
-                      Roof Replacement
-                  </a>
-                </li>
-                <li>
-                  <a href="services-detail.html">
-                    <i class="fa fa-angle-double-right"></i> 
-                      Roofing Repair
-                  </a>
-                </li>
-                <li>
-                  <a href="services-detail.html">
-                    <i class="fa fa-angle-double-right"></i> 
-                      Roof Maintainance
-                  </a>
-                </li>
-                <li>
-                  <a href="services-detail.html">
-                    <i class="fa fa-angle-double-right"></i> 
-                      Emergency Roofing Response
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>            
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-detail jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeInUp">
-              <h3>Latest Project</h3>
-              <hr class="center">
-              <div class="col-md-4 col-sm-4 col-xs-6 latest-project">
-                <img class="img-responsive" src="images/latest-project-1.jpg" alt="project-1">
-                <a href="work-detail.html">
-                  <span class="latest-project-overlay">
-                  <i class="fa fa-external-link"></i>
-                  </span>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-4 col-xs-6 latest-project">
-                <img class="img-responsive" src="images/latest-project-2.jpg" alt="project-2">
-                <a href="{{{action('HomeController@showDetail')}}}">
-                  <span class="latest-project-overlay">
-                  <i class="fa fa-external-link"></i>
-                  </span>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-4 col-xs-6 latest-project">
-                <img class="img-responsive" src="images/latest-project-3.jpg" alt="project-3">
-                <a href="work-detail.html">
-                  <span class="latest-project-overlay">
-                  <i class="fa fa-external-link"></i>
-                  </span>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-4 col-xs-6 latest-project">
-                <img class="img-responsive" src="images/latest-project-4.jpg" alt="project-4">
-                <a href="work-detail.html">
-                  <span class="latest-project-overlay">
-                  <i class="fa fa-external-link"></i>
-                  </span>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-4 col-xs-6 latest-project">
-                <img class="img-responsive" src="images/latest-project-5.jpg" alt="project-5">
-                <a href="work-detail.html">
-                  <span class="latest-project-overlay">
-                    <i class="fa fa-external-link"></i>
-                  </span>
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-4 col-xs-6 latest-project">
-                <img class="img-responsive" src="images/latest-project-6.jpg" alt="project-6">
-                <a href="work-detail.html">
-                  <span class="latest-project-overlay">
-                  <i class="fa fa-external-link"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>            
-        </div>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-            <p class="copy-right text-center">
-            Copyright 2015 - Roofers Co. Inc. All Rights Reserved. Designed by
-            <a href="#"> ewebcraft.com</a>
-            </p>
-            </div>
-        </div>        
-    </div>
-</footer>
-=======
 @include('partials.footer')
->>>>>>> 2c37aaeaacc0a478c90901be9fa03b8f5af3dc12
+
 
 
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
