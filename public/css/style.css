@@ -94,6 +94,7 @@ body{
 	font-weight:lighter;
 }
 
+
 @font-face {
     font-family: 'RobotoRegular';
     src: url('../fonts/RobotoRegular.eot');
@@ -163,7 +164,7 @@ body{
 	text-decoration: none;
 	color: #fff;
 	font-size:20px;
-	background:#db1c23;
+	background:#fff200;
 	padding:10px;
 }
 .back-to-top:hover , .back-to-top:focus{
@@ -173,7 +174,7 @@ body{
 	overflow:hidden;
 }
 a{ text-decoration:none; color:#35383e; }
-a:hover{ text-decoration:none;  color:#db1c23;}
+a:hover{ text-decoration:none;  color:#fff200;}
 a:focus{ outline:none; }
 ul{
 	margin:0;
@@ -213,7 +214,7 @@ header address{
 }
 /*NAVIGATION*/
 .navigation{
-	background:#212022;
+	background:#db1c23;
 	width:100%;
 	position:relative;
 }
@@ -225,7 +226,7 @@ header address{
 }
 .navigation:before {
 	right:80%;
-	background:#DB1C23;
+	background:#fff200;
 	width: 100%;
 }
 .navigation:after {
@@ -265,6 +266,10 @@ nav {
 	display:inline-block;
 	text-shadow: none;
 }
+.navbar-nav > li > a:hover{
+    
+    color:#db1c23 !important;
+}
 .navbar-collapse{
 	margin-right:30px;
 	margin-left:-20px;
@@ -296,7 +301,7 @@ nav {
 .navbar-nav > li.open .dropdown-menu {
     visibility: visible;
     opacity: 1;
-    background:#DB1C23;
+    background:#fff200;
 }
 .navbar-nav > li.open .dropdown-menu >li
 {
@@ -342,12 +347,13 @@ nav {
     -o-transform:skew(-20deg);
     -ms-transform:skew(-20deg);
     transform:skew(-20deg);
-	background:#db1c23;
+	background:#fff200;
 }
 
 .navbar-default .navbar-nav > li.active > a ,.navbar-default .navbar-nav > li:hover > a, .navbar-default .navbar-nav > li:hover > a
 {
-	background:transparent !important;
+	color:#db1c23 !important;
+    background:transparent !important;
 	-moz-transform:skew(20deg);
     -webkit-transform:skew(20deg);
     -o-transform:skew(20deg);
@@ -425,6 +431,9 @@ nav {
 .searchbox-open{
     width: 100%;
 }
+.span {
+    color:#db1c23;
+}
 
 /*2ND S4CTION  */
 
@@ -448,7 +457,7 @@ hr{
   margin:25px auto;
 }
 .hr{
-  background: #db1c23;
+  background: #fff200;
   height: 1px;
   width:35% !important;
   position: relative;
@@ -456,10 +465,10 @@ hr{
   display:block;
 }
 .center{
-	 background: #db1c23;
+	 background: #fff200;
 }
 .center:before{
-      	background:#db1c23;
+      	background:#fff200;
 		content: "";
 		display: inline-block;
 		height: 14px;
@@ -506,10 +515,10 @@ a.red-button span{
 
 .btn-4 {
 	overflow: hidden;
-	background:#db1c23;
+	background:#fff200;
 }
 .btn-4:hover {
-	background:#db1c23;
+	background:#fff200;
 	color:#fff;
 }
 .btn-4:before {
@@ -577,7 +586,7 @@ a.red-button span{
 	top: 50%;
 }
 .owl-theme .owl-controls .owl-buttons div:hover {
-	background: #DB1C23;
+	background: #fff200;
 	border-color: #fd1561;
 }
  /* ROOFERS SETION */
@@ -640,7 +649,7 @@ a.red-button span{
 	width:100%;
 }
 .estimation form .form-control:focus , .estimation form textarea:focus{
- 	  box-shadow:0 0 5px #DB1C23;
+ 	  box-shadow:0 0 5px #fff200;
 }
 .estimation form textarea{
 	margin-bottom:15px;
@@ -710,16 +719,16 @@ a.red-button span{
 /* blink */
 
 @keyframes blink {  
-    0% { background: #db1c23; }
+    0% { background: #fff200; }
     50% { background: #990006; }
-    75% { background: #db1c23; }
-    100% { background: #db1c23; }
+    75% { background: #fff200; }
+    100% { background: #fff200; }
 }
 @-webkit-keyframes blink {
-    0% { background: #db1c23; }
+    0% { background: #fff200; }
     50% { background: #990006; }
-    75% { background: #db1c23; }
-    100% { background: #db1c23; }
+    75% { background: #fff200; }
+    100% { background: #fff200; }
 }
 
 .btn-toggle {
@@ -728,7 +737,7 @@ a.red-button span{
   	animation: blink 4s infinite;
 }
 .toggle{
-	/* background:#db1c23; */
+	/* background:#fff200; */
 	color:#fff;
 	-moz-transform:skew(-25deg);
     -webkit-transform:skew(-25deg);
@@ -772,7 +781,7 @@ a.red-button span{
 }
 
 .myCarousel .carousel-control{
-   	  background:#db1c23 !important;
+   	  background:#fff200 !important;
 	  color:#fff;  
 	  font-size:18px;
 	  text-shadow:none;
@@ -912,7 +921,7 @@ a.red-button span{
 		 transition:all 0.5s ease-in-out 0s;
 }
 .mosaicflow__item .hover .fa{
-	background:#db1c23;
+	background:#fff200;
 	color:#fff;
 	font-size:18px;
 	opacity:0.7;
@@ -1049,8 +1058,8 @@ section.module.parallax-1 {
     width: 100%;
 }
 .news-letter .submit-button {
-    background:  #db1c23;
-    border-color: #db1c23;
+    background:  #fff200;
+    border-color: #fff200;
     border-radius: 0;
     color: #fff;
     height: 64px;
@@ -1078,11 +1087,14 @@ section.module.parallax-1 {
 
 /* FOOTER */
 footer{
-	background:#19171c;
-	border-top:5px solid #db1c23;
-	color:#8b8b8b;
+	background:#db1c23;
+	border-top:5px solid #fff200;
+	color:#ffffff;
 	font-size:14px;
 	padding-top:5%;
+}
+footer.a {
+    color:#ffffff;
 }
 .footer-detail {
 	position: relative;
@@ -1108,7 +1120,7 @@ footer{
 }
 .footer-detail ul{}
 .footer-detail ul li{
-	border-bottom: 1px solid #332f38;
+	border-bottom: 1px solid #fff100;
 	font-size: 16px;
 	font-weight: normal;
 	padding-bottom: 8px;
@@ -1161,8 +1173,12 @@ footer{
 	color:#8b8b8b;
 }
 footer .copy-right{
-	border-top:1px solid #db1c23;
+	border-top:1px solid #fff200;
 	padding:30px 0;
+}
+
+footer .bottom-info a {
+    color:#fff;
 }
  /*FOOTER ENDS  */
 
@@ -1298,7 +1314,7 @@ footer .copy-right{
     transform:skew(20deg);
 }
 .overlay-abt  ul.info li a:hover , .overlay-abt  ul.info li a >:focus{
-	background:#db1c23;
+	background:#fff200;
 }
 .description{
 	 margin-bottom:25px;
@@ -1340,7 +1356,7 @@ ul#portfolio-filter li a {
 	 display:inline-block;
 }
 ul#portfolio-filter li a.current , ul#portfolio-filter li a:hover , ul#portfolio-filter li a:focus{
-	color:#db1c23 !important;
+	color:#fff200 !important;
 	text-decoration:none; 
 }
 
@@ -1396,7 +1412,7 @@ aside{
 	margin:0;
 }
 .red{
-	background:#db1c23;
+	background:#fff200;
 	height:1px;
 	width:100%;
 	margin:25px 0;
@@ -1405,7 +1421,7 @@ aside{
 }
 
 .red:before{
-    background:#db1c23;
+    background:#fff200;
 	content: "";
 	display: inline-block;
 	height: 14px;
@@ -1470,7 +1486,7 @@ aside ul li {
 	width:5%;
 }
 .clients-bg .carousel-control:hover , .clients-bg .carousel-control:focus{
-	color:#db1c23;
+	color:#fff200;
 }
 .clients-bg .clients p{
 	font-size:18px;
@@ -1552,7 +1568,7 @@ aside ul li {
 	 display:inline-block;
 }
 ul.filter-list li > .active , ul.filter-list li a:hover , ul.filter-list li a:focus{
-	color:#db1c23 !important;
+	color:#fff200 !important;
 	text-decoration:none; 
 }
 .portfolio {
@@ -1812,7 +1828,7 @@ ul.filter-list li > .active , ul.filter-list li a:hover , ul.filter-list li a:fo
   transition:all 0.30s ease-in-out;
 }
 .contact form .form-control:focus , .contact form textarea:focus{
-	 box-shadow:0 0 5px #DB1C23;
+	 box-shadow:0 0 5px #fff200;
 }
 .contact form textarea{
 	padding:6px 12px;
@@ -1983,7 +1999,7 @@ ul.filter-list li > .active , ul.filter-list li a:hover , ul.filter-list li a:fo
 	.owl-theme .owl-controls .owl-buttons div:hover {
 		background: none;
 		border:none;
-		color: #DB1C23;
+		color: #fff200;
 	}
 	.owl-theme .owl-controls .owl-buttons .owl-prev,
 	.owl-theme .owl-controls .owl-buttons .owl-next {
