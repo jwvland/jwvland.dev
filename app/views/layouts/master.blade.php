@@ -94,7 +94,7 @@
 		<div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="90%" data-gen="fadeIn">
 		<img src="images/feature-work1.png"  alt="" class="img-responsive">
 			<span class="hover text-center">
-            <a href="work-detail.html"><i class=" fa fa-external-link"></i></a>
+            <a href="{{{action('HomeController@showWorkDetail')}}}"><i class=" fa fa-external-link"></i></a>
             </span>
 		</div>
 
