@@ -22,6 +22,177 @@
 
 @yield('home')
 
+@yield('detail')
+
+ <!--ROOFERS-->
+<section class="roofers-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                <a name="about"></a><h1>About Us</h1>
+                <hr class="center">
+                <p class="jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInDown">
+                Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est<br>. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInUp">
+              <img src="images/professional.png" alt="">
+              <p>Expert and Professional</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeInUp">
+              <img src="images/satisfaction.png" alt="">
+              <p>Satisfaction Guarantee</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="roofers text-center jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeInUp">
+              <img src="images/inspiration.png" alt="">
+              <p>Free Estimates</p>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+ <!-- FEATURED WORK -->
+<section class="feature">
+
+<div class="container">
+    <div class="row">
+        <br>
+        <br>
+        <br>
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+
+        	<h1 class="jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeInDown"><a name="featured">
+            </a>Our Featured Work</h1>
+            <hr class="center">          
+        </div>       
+
+    </div>
+    
+    <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="mosaicflow clearfix" data-item-height-calculation="attribute">
+		<div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="90%" data-gen="fadeIn">
+		<img src="images/feature-work1.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="{{{action('HomeController@showWorkDetail')}}}"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+
+		<div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="85%" data-gen="fadeIn">
+		<img src="images/feature-work2.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="work-detail.html"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+
+		<div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="80%" data-gen="fadeIn">
+		<img src="images/feature-work3.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="our-work.html"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+
+		<div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeIn">
+		<img src="images/gallery5.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="work-detail.html"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+        
+        <div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeIn">
+		<img src="images/gallery1.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="work-detail.html"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+        
+        <div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeIn">
+		<img src="images/gallery2.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="work-detail.html"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+        
+        <div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeIn">
+		<img src="images/gallery3.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="work-detail.html"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+        
+        <div class="mosaicflow__item jw-animate-gen noOpacity" data-gen-offset="75%" data-gen="fadeIn">
+		<img src="images/gallery4.png"  alt="" class="img-responsive">
+			<span class="hover text-center">
+            <a href="work-detail.html"><i class=" fa fa-external-link"></i></a>
+            </span>
+		</div>
+
+	</div>                          
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="contact-wrap">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <br>
+            <div class="contact">
+            <h1 class="jw-animate-gen noOpacity" data-gen="fadeInDown" data-gen-offset="90%">
+            Contact Us</h1>
+            <p class="jw-animate-gen noOpacity" data-gen="fadeInDown" data-gen-offset="85%">
+            Lorem ipsum dolor sit amet, mea cu omnium urbanitas, labitur volumus id eum. Ius ignota offendit similique et, sea dolorum vituperata ullamcorper volumus id eum. Ius ignota offendit similique et, sea dolorum vituperata ullamcorper.</p>
+            </div>
+        </div>
+        </div> <!--ROW-->
+        <div class="row">
+        
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="contact jw-animate-gen noOpacity" data-gen="fadeInLeft" data-gen-offset="80%">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-1">
+                  <i class="fa fa-home"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-11 nospace">
+                5512 Lorem Ipsum Vestibulum Molesqu, Dolor Sit Amet, 
+                Egestas 666 69 
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-1">
+                <i class="fa fa-envelope"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-11 nospace">
+                <a href="mailto:contact@yourdomain.com">
+                 contact@yourdomain.com</a>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-1">
+                <i class="fa fa-phone"></i>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-11 nospace">
+                 +1 800 450 6935 <br>
+                 +1 800 450 6940 
+                </div>
+            </div>
+            </div>
+        </div>
+      </div> <!--ROW-->
+    </div> <!--CONTAINER-->
+</section>
+
 
 @include('partials.footer')
 
