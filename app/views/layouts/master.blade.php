@@ -6,7 +6,6 @@
 <title>@yield('title')</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/slider-pro.min.css">
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 <link rel="stylesheet" type="text/css" href="css/animate-custom.css">
 <link rel="stylesheet" type="text/css" href="css/royalslider.css">
@@ -18,21 +17,11 @@
 </head>
 
 <body>
-<div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-    <div class="load_title">Roofing Services Premier HTML</div>
-</div>
 
-<div class="container">
-    <a href="#" class="back-to-top text-center" style="display: inline;">
-    <i class="fa fa-angle-up"></i>
-    </a>
-</div>
 @include('partials.navbar')
 
 @yield('home')
+
 @yield('detail')
 
  <!--ROOFERS-->
@@ -207,6 +196,14 @@
 
 @include('partials.footer')
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=432306783477743";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
